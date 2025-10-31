@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: test-react-project-staging
+  labels:
+    environmentId: env_cd6d9a6c-6a81-4d88-a2e0-864b80d92615
+    projectId: project_11671739-5f6f-4584-8d6c-a74169254d64
+    projectName: test-react-project
+    environmentName: staging
+    organizationId: org_214f8824-489e-4427-b043-83252b36ac2b
+    goldilocks.fairwinds.com/enabled: 'true'
