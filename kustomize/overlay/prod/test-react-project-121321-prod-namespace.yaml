@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: test-react-project-121321-prod
+  labels:
+    environmentId: env_56ba14c4-181d-4489-a54a-f9e5d8fb2ad8
+    projectId: project_cd3d5691-e552-40b9-95d3-a6c97549b15d
+    projectName: test-react-project-121321
+    environmentName: prod
+    organizationId: org_214f8824-489e-4427-b043-83252b36ac2b
+    goldilocks.fairwinds.com/enabled: 'true'
